@@ -3,6 +3,7 @@ import cvxpy as cp
 import numpy as np
 import pandas as pd
 
+
 c = np.array([1, -1, 1])
 #A = np.array([[-2, 1, 1], [3, -1, -2]])
 #b = np.array([[9], [-4]])
