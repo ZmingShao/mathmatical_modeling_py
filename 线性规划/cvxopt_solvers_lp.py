@@ -2,6 +2,7 @@
 import numpy
 from cvxopt import matrix, solvers
 
+# 111
 c = matrix([-1., 2, 3])
 A = matrix([[-2., 1, 1], [3, -1, -2], [-1, 0, 0], [0, -1, 0]]).T
 b = matrix([9., -4, 10, 0])
