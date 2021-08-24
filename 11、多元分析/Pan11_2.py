@@ -2,7 +2,7 @@
 import numpy as np; import pandas as pd
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-a=pd.read_csv("iris.csv")
+a=pd.read_csv("聚类分析/iris.csv")
 b=a.drop(labels="Species",axis=1)
 md=KMeans(3); md.fit(b)  #构建模型并求解模型
 labels=md.labels_ ;  centers=md.cluster_centers_
