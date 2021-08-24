@@ -1,4 +1,5 @@
-#二次规划
+# 二次规划
+
 import numpy as np
 from cvxopt import matrix, solvers
 

@@ -1,4 +1,5 @@
-#
+# 利用cvxpy库
+
 import cvxpy as cp
 from numpy import array
 

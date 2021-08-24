@@ -1,4 +1,5 @@
-#
+# 用cvxopt.solvers模块求解
+
 import numpy
 from cvxopt import matrix, solvers
 

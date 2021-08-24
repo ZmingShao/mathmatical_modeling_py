@@ -1,4 +1,5 @@
-#
+# 用scipy.optimize模块求解
+
 from scipy.optimize import linprog
 import numpy as np
 

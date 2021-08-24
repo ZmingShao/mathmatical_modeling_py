@@ -1,4 +1,5 @@
-#
+# 用 scipy.optimize 模块的 minimize 函数求解
+
 from scipy.optimize import minimize
 import numpy as np
 

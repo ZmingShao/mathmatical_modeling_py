@@ -1,4 +1,9 @@
-#
+# 一维插值
+"""
+kind 的取值可以为：linear', 'nearest', 'zero', 'slinear', 'quadratic', 'cubic'等，
+这里的'zero', 'slinear', 'quadratic' and 'cubic'分别指的是 0 阶、1 阶、2 阶和 3 阶样条插值。
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d

@@ -1,4 +1,5 @@
 # 二维网格节点插值
+
 from mpl_toolkits import mplot3d
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,5 +18,5 @@ ax.plot_surface(X, Y, zn, cmap='viridis')
 ax.set_xlabel('$x$')
 ax.set_ylabel('$y$')
 ax.set_zlabel('$z$')
-#plt.savefig('figure7_5.png', dpi=500);
+# plt.savefig('figure7_5.png', dpi=500);
 plt.show()
