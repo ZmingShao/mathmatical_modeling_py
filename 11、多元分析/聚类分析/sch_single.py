@@ -11,7 +11,7 @@ d = sch.distance.pdist(b)  # 求对象之间的两两距离向量
 # dd = sch.distance.squareform(d)  # 转换为矩阵格式
 z = sch.linkage(d)
 print(z)  # 进行聚类并显示
-s = [str(i) for i in range(7)]
+s = [str(i) for i in range(b.shape[0])]
 plt.rc('font', size=16)
 sch.dendrogram(z, labels=np.array(s))
 plt.show()  # 画聚类图
