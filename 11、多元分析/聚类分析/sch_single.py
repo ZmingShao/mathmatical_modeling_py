@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 a = np.loadtxt("Pdata11_11.txt")
 b = pp.minmax_scale(a.T)  # 数据规格化
-d = sch.distance.pdist(b)  # 求对象之间的两两距离向量
+d = sch.distance.pdist(b)  # 求对象之间的两两距离向量 默认欧式距离，第二个参数可修改距离算法
 # dd = sch.distance.squareform(d)  # 转换为矩阵格式
 z = sch.linkage(d)
 print(z)  # 进行聚类并显示

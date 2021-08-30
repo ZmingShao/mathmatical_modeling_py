@@ -10,4 +10,4 @@ b = a.values
 x0 = b[:-2, 1:-1].astype(float)  # 提取已知样本点的观测值
 y0 = b[:-2, -1].astype(int)
 model = LDA()
-print(cross_val_score(model, x0, y0, cv=2))
+print(cross_val_score(model, x0, y0, cv=2))     # 模型、特征、标签、分组

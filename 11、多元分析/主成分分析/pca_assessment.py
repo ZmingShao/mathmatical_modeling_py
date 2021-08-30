@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import zscore
 
 a = np.loadtxt("Pdata11_8.txt")
-print("相关系数阵为：\n", np.corrcoef(a.T))
+print("相关系数阵为：\n", np.corrcoef(a.T))    # 查看指标间的相关性
 b = np.delete(a, 0, axis=1)  # 删除第1列数据
 
 # 数据标准化并计算相关系数阵
