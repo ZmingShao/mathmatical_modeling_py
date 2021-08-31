@@ -1,4 +1,4 @@
-#程序文件Pex19_2.py
+#支持向量回归,适合大批量非线性杂乱数据
 import numpy as np
 import pylab as plt
 from sklearn.svm import SVR 
