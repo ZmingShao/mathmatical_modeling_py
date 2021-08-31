@@ -1,4 +1,4 @@
-#程序文件Pex14_10.py
+#模糊C均值聚类
 import numpy as np
 import matplotlib.pyplot as plt
 from skfuzzy.cluster import cmeans
