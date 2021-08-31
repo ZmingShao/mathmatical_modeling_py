@@ -1,4 +1,4 @@
-#程序文件Pex19_1_2.py
+#使用线性支持向量机分类鸢尾花
 from sklearn import datasets, svm
 from sklearn.model_selection import GridSearchCV
 import numpy as np
