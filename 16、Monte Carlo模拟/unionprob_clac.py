@@ -1,7 +1,8 @@
-#程序文件Pex16_7.py
+#二维随机变量概率模拟
+
 import numpy as np
 from scipy.integrate import dblquad
-fxy=lambda x,y: 1/(20000*np.pi)*np.exp(-(x**2+y**2)/20000)
+fxy=lambda x,y: 1/(20000*np.pi)*np.exp(-(x**2+y**2)/20000)  # 联合概率密度函数
 bdy=lambda x: 80*np.sqrt(1-x**2/120**2)
 p1=dblquad(fxy,-120,120,lambda x:-bdy(x),bdy)
 print("概率的数值解为：",p1)

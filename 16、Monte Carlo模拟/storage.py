@@ -1,4 +1,4 @@
-#程序文件Pex16_9_1.py
+#仓库管理问题，判定最佳进货量
 from scipy.stats import poisson
 a=2; b=3; lamda=10; p=1-a/b
 u=poisson.ppf(1-a/b,lamda)  #求最佳订购量

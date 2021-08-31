@@ -1,4 +1,4 @@
-#程序文件Pex16_9_2.py
+#计算机模拟判的最佳进货量
 import numpy as np
 a=2; b=3; lamda=10; M1=0;
 u=1; n=10000;

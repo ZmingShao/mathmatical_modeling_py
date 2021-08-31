@@ -1,4 +1,4 @@
-#程序文件Pex16_10
+#排队问题
 from numpy.random import exponential, uniform, seed
 from numpy import mean, array, zeros
 seed(4)  #进行一致性比较,每次运行结果一样

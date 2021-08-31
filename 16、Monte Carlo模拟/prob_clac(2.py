@@ -1,4 +1,4 @@
-#程序文件Pex16_6.py
+# 随机实验求pi的值
 import numpy as np
 import matplotlib.pyplot as plt
 plt.rc('font',size=16); N=10000;
