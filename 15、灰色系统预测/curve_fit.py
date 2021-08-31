@@ -1,10 +1,15 @@
-#程序文件Pex15_1.py
+# 累加后参数拟合，对比线性最小二乘
 import numpy as np
 from matplotlib.pyplot import plot,show,rc,legend,subplot
-from scipy.optimize import curve_fit
-rc('font',size=15);rc('font',family='SimHei');t0=np.arange(1,7)
+from scipy.optimize import curve_fit    # 非线性最小二乘法
+
+
+rc('font',size=15)
+rc('font',family='SimHei')
+t0=np.arange(1,7)
 x0=np.array([5.081, 4.611, 5.1177, 9.3775, 11.0574, 11.0524])
-xt=np.polyfit(t0,x0,1); xh1=np.polyval(xt,t0)  #计算预测值
+xt=np.polyfit(t0,x0,1)
+xh1=np.polyval(xt,t0)  #计算预测值
 delta1=abs((xh1-x0))/x0   #计算相对误差
 x1=np.cumsum(x0)
 xh2=lambda t,a,b,c: a*np.exp(b*t)+c

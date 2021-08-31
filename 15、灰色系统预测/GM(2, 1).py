@@ -1,4 +1,5 @@
-#程序文件Pex15_4_1.py
+# 二阶单变量
+# 适用于非单调的摆动发展序列或有饱和的S型序列
 import numpy as np
 from sympy import Function, diff, dsolve, symbols, solve,exp
 x0=np.array([41, 49, 61, 78, 96, 104])

@@ -1,4 +1,4 @@
-#程序文件Pex15_3.py
+#一阶多变量
 import numpy as np
 from scipy.integrate import odeint
 a=np.loadtxt("Pdata15_3.txt")  #加载表中的后4列数据

@@ -1,4 +1,4 @@
-#程序文件Pex15_4_2.py
+#直接求二阶微分方程符号解
 import numpy as np
 import sympy as sp
 x0=np.array([41,49,61,78,96,104])
