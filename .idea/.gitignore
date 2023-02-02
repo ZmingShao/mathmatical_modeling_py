@@ -1,8 +1,0 @@
-# 默认忽略的文件
-/shelf/
-/workspace.xml
-# 数据源本地存储已忽略文件
-/../../../../../../../:\OneDrive - stu.hit.edu.cn\Documents\数学建模\建模算法\常用算法（python实现）\.idea/dataSources/
-/dataSources.local.xml
-# 基于编辑器的 HTTP 客户端请求
-/httpRequests/
